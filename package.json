@@ -7,6 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "e2e": "ng e2e",
+    "buildThemes": "bash ./tools/build-themes.sh",
     "lint": "ng lint && npm run lint:styles",
     "lint:styles": "stylelint \"**/*.scss\""
   },
@@ -24,6 +25,7 @@
     "@angular/router": "~9.1.0",
     "karma-parallel": "^0.3.1",
     "karma-tslint": "^1.3.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
     "rxjs": "~6.5.4",
     "stylelint-config-sass-guidelines": "^7.0.0",

@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
 
 import { MaterialModule } from 'src/app/modules/material/material.module';
-import { MockActivatedRoute } from 'src/test/mock-activated-route';
+import { MockActivatedRoute } from 'test/mock-activated-route';
 import { ThemePickerComponent } from './theme-picker.component';
 
 describe('ThemePickerComponent', () => {
