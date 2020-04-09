@@ -44,6 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.vscode/
 
 folder-structure.txt
 src/assets/data/*
