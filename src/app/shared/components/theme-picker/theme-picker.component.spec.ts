@@ -30,7 +30,7 @@ describe('ThemePickerComponent', () => {
     expect(component.styleManager.setStyle).toHaveBeenCalled();
     expect(component.styleManager.setStyle).toHaveBeenCalledWith(
       'theme',
-      `assets/${name}.css`
+      `assets/global-styles/${name}.css`
     );
   });
 });
