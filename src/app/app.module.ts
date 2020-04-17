@@ -10,6 +10,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { LayoutComponent } from './shared/components/layout/layout.component';
 import { ThemePickerComponent } from './shared/components/theme-picker/theme-picker.component';
+import { PageComponent } from './shared/components/page/page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ThemePickerComponent } from './shared/components/theme-picker/theme-pic
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    PageComponent,
   ],
   imports: [
     BrowserModule,
